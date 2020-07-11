@@ -1,6 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bbf28a84-4bdb-407b-a2fa-32628d27fa3d/deploy-status)](https://app.netlify.com/sites/eleventy-netlify-boilerplate/deploys)
 
-# Eleventy Netlify Boilerplate
+# Eleventy Netlify Boilerplate LHW
+This @11ty site is based on Dan Urbanowicz's Eleventy Netlify Boilerplate, modified for my own needs.
+----
+Dan Urbanowicz's original README below.
+----
 
 ## What is it?
 
