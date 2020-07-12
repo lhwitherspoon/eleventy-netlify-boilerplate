@@ -12,7 +12,7 @@ permalink: /
 
   # Interests
 
-  Web development
+  Web & app development
 
   Evaluating the evidence for complementary & alternative medicine (CAM)
 
@@ -21,6 +21,8 @@ permalink: /
   Healthcare impacts of bias & structural inequity
 
   LGBTQ+ healthcare & rights
+
+  *Seattle, WA, USA*
 
   </aside>
 </section>
