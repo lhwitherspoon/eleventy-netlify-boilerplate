@@ -10,7 +10,7 @@ permalink: /
 <section>
   <aside>
 
-  # Interests
+  ## Interests
 
   Web & app development
 
