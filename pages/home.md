@@ -9,11 +9,17 @@ permalink: /
 ---
 <section>
   <aside>
-    
+
+  # Interests
+
   Web development
+
   Evaluating the evidence for complementary & alternative medicine (CAM)
+
   Pro-vaccine & science advocacy
+
   Healthcare impacts of bias & structural inequity
+
   LGBTQ+ healthcare & rights
 
   </aside>

@@ -15,7 +15,7 @@
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --hover-brightness: 1.2;
     /* --justify-important: center; */
-    --justify-important: left;
+    --justify-important: center;
     --justify-normal: left;
     --line-height: 1.5;
     --width-card: 285px;
@@ -449,6 +449,7 @@ blockquote footer {
 }
 
 /* Custom styles */
+
 
 article {
     display: block;
