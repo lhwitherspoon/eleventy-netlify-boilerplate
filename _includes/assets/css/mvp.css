@@ -457,8 +457,13 @@ article {
     padding: 0.5rem;
 }
 
-footer {
+footer{
     justify-content: center;
+}
+
+form {
+    display: block;
+    align-self: center;
 }
 
 input,
@@ -469,4 +474,8 @@ textarea {
     font-size: inherit;
     /* max-width: var(--width-card-wide); */
     width: 100%;
+}
+
+nav p {
+    display: block;
 }
