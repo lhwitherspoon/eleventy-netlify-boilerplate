@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  repo: lhwitherspoon/eleventy-netlify-boilerplate-lhw
+  name: github
+  repo: lhwitherspoon/eleventy-netlify-boilerplate
+  auth_type: implicit
+
   branch: master # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
