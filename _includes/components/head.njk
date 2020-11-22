@@ -1,25 +1,31 @@
 <head>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137914875-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137914875-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-137914875-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137914875-1');
+  </script>
 
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-137914875-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137914875-1');
+  </script>
 
   <meta charset="utf-8">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
@@ -29,52 +35,66 @@
   <!--<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
-    {% include "assets/css/mvp.css" %}
+  {% include "assets/css/mvp.css" %}
   {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
+  <style>
+    {
+        {
+        css | cssmin | safe
+      }
+    }
+  </style>
   {% set js %}
-    {% include "assets/js/inline.js" %}
+  {% include "assets/js/inline.js" %}
   {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+  <script>
+    {
+      {
+        js | jsmin | safe
+      }
+    }
+  </script>
   <!-- AddToAny BEGIN -->
-<div>
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_email"></a>
-</div>
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
-<a class="a2a_button_instagram" data-a2a-follow="3440_checkfacts"></a>
-</div>
-</div>
-<script>
-var a2a_config = a2a_config || {};
-a2a_config.onclick = 1;
-a2a_config.num_services = 4;
-a2a_config.templates = a2a_config.templates || {};
-a2a_config.templates.twitter = {
-     text: "I'm some text",
-     };
+  {# <div>
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+      <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_twitter"></a>
+      <a class="a2a_button_email"></a>
+    </div>
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
+      <a class="a2a_button_instagram" data-a2a-follow="3440_checkfacts"></a>
+    </div>
+  </div>
+  <script>
+    var a2a_config = a2a_config || {};
+    a2a_config.onclick = 1;
+    a2a_config.num_services = 4;
+    a2a_config.templates = a2a_config.templates || {};
+    a2a_config.templates.twitter = {
+      text: "I'm some text",
+    };
 
-a2a_config.custom_services = [
-	["Instagram",
-	 	"https://www.instagram.com/3440_checkfacts/",
-		"https://lhwitherspoon.com/_includes/assets/images/instagram-test.png"
-	],
-	
-];
-</script>
+    a2a_config.custom_services = [
+      ["Instagram",
+        "https://www.instagram.com/3440_checkfacts/",
+        "https://lhwitherspoon.com/_includes/assets/images/instagram-test.png"
+      ],
 
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
-  <meta name="og:url" content = "https://lhwitherspoon.com">
-  <meta name="twitter:card" content="summary_large_image"></meta>
-<meta name="twitter:site" content="@lhwitherspoon"></meta>
-<meta name="twitter:description" content="insert text that you want to put here for the tweet."></meta>
-<meta name="twitter:title" content="I'm a title"></meta>
-<meta name="twitter:image" content="https://github.com/lhwitherspoon/eleventy-netlify-boilerplate/blob/master/_includes/assets/images/xps-uWFFw7leQNI-unsplash.jpg"></meta>
+    ];
+  </script>
 
-
-
-
+  <script async src="https://static.addtoany.com/menu/page.js"></script> #}
+  <!-- AddToAny END -->
+  <meta name="og:url" content="https://lhwitherspoon.com">
+  <meta name="twitter:card" content="summary_large_image">
+  </meta>
+  <meta name="twitter:site" content="@lhwitherspoon">
+  </meta>
+  <meta name="twitter:description" content="insert text that you want to put here for the tweet.">
+  </meta>
+  <meta name="twitter:title" content="I'm a title">
+  </meta>
+  <meta name="twitter:image"
+    content="https://github.com/lhwitherspoon/eleventy-netlify-boilerplate/blob/master/_includes/assets/images/xps-uWFFw7leQNI-unsplash.jpg">
+  </meta>
